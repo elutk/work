@@ -1,0 +1,2 @@
+# work
+work or die
