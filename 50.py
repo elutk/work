@@ -8,12 +8,16 @@
 # версия Python: 3.8
 import random
 import numpy
+
 N = int(input("Количество элементов в массиве "))
 A = [random.randint(-5, 5) for i in range(0, N)]
+
 print(A)
+
 S = 0
 K = 0
 L = 0
+
 for i in range(N):
     if A[i]%3 == 0:
         S = S + 1
@@ -23,6 +27,7 @@ for i in range(N):
 F = L/K
 A.append(F)
 A.insert(0,S)
+
 print(F)
 print(S)
 print(A)
